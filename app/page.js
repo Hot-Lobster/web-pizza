@@ -24,6 +24,7 @@ export default function Home({ pizzas, user }) {
             <p>Date: {order.date}</p>
             <p>Total: ${order.total}</p>
             <p>Status: {order.status}</p>
+            <p>This is nonsesne</p>
             <ul>
               {order.items.map((item) => (
                 <li key={item.pizza._id}>
